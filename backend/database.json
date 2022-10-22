@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Alice in the wonderland",
+    "isbn": "",
+    "author": ["Lewis Carroll"],
+    "genre": ["Fantasy", "Literary Nonsense"],
+    "desc": "Alice’s Adventures in Wonderland, widely beloved British children’s book by Lewis Carroll, published in 1865. With its fantastical tales and riddles, it became one of the most popular works of English-language fiction. It was notably illustrated by British artist John Tenniel.",
+    "idiom": "English",
+    "location":"Sótão",
+    "imgPath": ""
+  },
+  {
+    "name": "Trough the looking glass",
+    "isbn": "",
+    "author": ["Lewis Carroll"],
+    "genre": ["Fantasy","Literary Nonsense"],
+    "desc": "Alice’s Adventures in Wonderland, widely beloved British children’s book by Lewis Carroll, published in 1865. With its fantastical tales and riddles, it became one of the most popular works of English-language fiction. It was notably illustrated by British artist John Tenniel.",
+    "idiom": "English",
+    "location":"Sótão",
+    "imgPath": ""
+  },
+  {
+    "name": "1984",
+    "isbn": "",
+    "author": ["George Orwell"],
+    "genre": ["Politcal","Dystopian"],
+    "desc": "Nineteen Eighty-Four (also stylised as 1984) is a dystopian social science fiction novel and cautionary tale written by the English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, it centres on the consequences of totalitarianism, mass surveillance and repressive regimentation of people and behaviours within society.[2][3] Orwell, a democratic socialist, modelled the totalitarian government in the novel after Stalinist Russia and Nazi Germany.[2][3][4] More broadly, the novel examines the role of truth and facts within politics and the ways in which they are manipulated..",
+    "idiom": "English",
+    "location": "Sótão - 1",
+    "imgPath": ""
+  },
+  {
+    "name": "Animal Farm",
+    "isbn": "",
+    "author": ["George Orwell"],
+    "genre": ["Politcal", "Satire"],
+    "desc": "Animal Farm is a beast fable,[1] in the form of satirical allegorical novella, by George Orwell, first published in England on 17 August 1945.[2][3] It tells the story of a group of farm animals who rebel against their human farmer, hoping to create a society where the animals can be equal, free, and happy. Ultimately, the rebellion is betrayed, and the farm ends up in a state as bad as it was before, under the dictatorship of a pig named Napoleon.",
+    "idiom": "English",
+    "location": "Sótão - 1",
+    "imgPath": ""
+  },
+  {
+    "name": "Prometo Falhar",
+    "isbn": "",
+    "author": ["Pedro Chagas Freitas"],
+    "genre": ["Romatic","Emotional"],
+    "desc": "O amor dos amantes, o amor dos amigos, o amor da mãe pelo filho, do filho pela mãe, pelo pai, o amor que abala, que toca, que arrebata, que emociona, que descobre e encobre, que fere e cura, que prende e liberta.O amor.No seu estilo intimista, quase que sussurrado ao ouvido, Pedro Chagas Freitas leva o leitor aos estratos mais profundos do que sente. E promete não deixar pedra sobre pedra. Mergulhe de cabeça numa obra que mostra sem margem para equívocos porque é que é possível sair ileso de tudo. Menos do amor.",
+    "idiom": "Português",
+    "location": "Sótão - 1",
+    "imgPath": ""
+  }
+]

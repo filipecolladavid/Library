@@ -1,0 +1,31 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 5%;
+    background-color: #6186EC;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    transition: 1s;
+}
+
+.sidebar:hover {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height:auto;
+    background-color: #6186EC;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.listContainer {
+    display: flex;
+    justify-self: center;
+    padding:10px
+}

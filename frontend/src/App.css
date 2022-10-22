@@ -1,0 +1,216 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Courier New", monospace;
+  font-size: 100px;
+}
+
+header {
+  padding-top:10px;
+  padding-inline: 50px;
+}
+
+.buttonQuery {
+  display: flex;
+  align-items: center;
+  margin-top: 20px!important;
+  justify-content: center;
+  width: 50px;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px
+}
+
+.buttonQuery:hover {
+  cursor: pointer;
+}
+
+.buttonQuery:active {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+/* Icons */
+
+.bottomContainer {
+  display: flex;
+  position: absolute;
+  width: 98%;
+  top: 20%;
+  left: 1%;
+  right: 1%;
+  height: 80%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons.all {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 70%;
+  align-items: center;
+}
+
+.mult,
+.solo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.solo#second {
+  animation: fadeOutDown2 1s;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.solo#third {
+  animation: fadeOutDown3 1s;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Out second icon */
+@keyframes fadeOutDown2 {
+  0% {
+    transform: translateY(180px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+}
+
+/* Out third icon */
+@keyframes fadeOutDown3 {
+  0% {
+    transform: translateY(360px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+}
+.mult#second {
+  animation: fadeInDown2 1s;
+}
+
+.mult#third {
+  animation: fadeInDown3 1s;
+}
+
+/* In second icon */
+@keyframes fadeInDown2 {
+  0% {
+    transform: translateY(-180px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* In second icon */
+@keyframes fadeInDown3 {
+  0% {
+    transform: translateY(-360px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.icons svg {
+  height: 5em;
+  width: 5em;
+}
+
+.icons svg:hover {
+  cursor: pointer;
+}
+
+/* Result */
+
+.result {
+  overflow-y: scroll;
+}
+
+.listContainer {
+  height: 85px;
+  overflow-y: scroll;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  padding: 5px;
+}
+
+.card img:hover{
+  cursor: pointer;
+}
+
+.titleIcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleIcon svg:hover {
+	cursor: pointer;
+}
+
+.desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.addButton {
+  margin-top:30px;
+  background-color: #0c6efd;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  border-radius: 20%;
+}
+
+.addButton:hover {
+  cursor: pointer;
+}
+
+.addButton:active {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.addedElem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.statusContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
